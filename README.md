@@ -290,9 +290,9 @@ Built with Streamlit in Snowflake — an interactive analytics app running nativ
 
 The dbt lineage graph shows the full dependency chain from raw source to final mart models.
 
-![dbt Lineage Graph](images/dbt_lineage.png)
-
 ![dbt Documentation](images/dbt_docs.png)
+
+![dbt Lineage Graph](images/dbt_lineage.png)
 
 ![dbt Marts](images/dbt_marts.png)
 
