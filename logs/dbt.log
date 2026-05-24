@@ -1,0 +1,138 @@
+[0m20:10:44.537738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faed8499a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faed96f2d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faed96f23a0>]}
+
+
+============================== 20:10:44.542312 | 7ad4d2a9-d643-4e94-a866-ffe8f9c6e883 ==============================
+[0m20:10:44.542312 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m20:10:44.543102 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'printer_width': '80', 'cache_selected_only': 'False', 'debug': 'False', 'introspect': 'True', 'static_parser': 'True', 'no_print': 'None', 'invocation_command': 'dbt init dbt_project', 'log_format': 'default', 'partial_parse': 'True', 'fail_fast': 'False', 'empty': 'None', 'target_path': 'None', 'use_colors': 'True', 'indirect_selection': 'eager', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/oliviazama/.dbt', 'write_json': 'True', 'use_experimental_parser': 'False'}
+[0m20:10:44.557682 [info ] [MainThread]: A project called dbt_project already exists here.
+[0m20:10:44.564990 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.11796061, "process_in_blocks": "0", "process_kernel_time": 0.231843, "process_mem_max_rss": "92819456", "process_out_blocks": "0", "process_user_time": 1.345025}
+[0m20:10:44.565910 [debug] [MainThread]: Command `dbt init` succeeded at 20:10:44.565765 after 0.12 seconds
+[0m20:10:44.566360 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faed8499a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faed8b73ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faed968a250>]}
+[0m20:10:44.566835 [debug] [MainThread]: Flushing usage events
+[0m20:10:45.140133 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:12:22.858473 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f90423d9a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9043718cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9043718310>]}
+
+
+============================== 20:12:22.862760 | 5c4d6029-a510-486e-b0c2-74ca7209270c ==============================
+[0m20:12:22.862760 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m20:12:22.863445 [debug] [MainThread]: running dbt with arguments {'log_path': 'logs', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'warn_error': 'None', 'empty': 'None', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'indirect_selection': 'eager', 'partial_parse': 'True', 'cache_selected_only': 'False', 'invocation_command': 'dbt init dbt_project', 'introspect': 'True', 'log_cache_events': 'False', 'quiet': 'False', 'write_json': 'True', 'no_print': 'None', 'target_path': 'None', 'debug': 'False', 'use_experimental_parser': 'False', 'static_parser': 'True', 'log_format': 'default', 'profiles_dir': '/Users/oliviazama/.dbt'}
+[0m20:12:22.875589 [info ] [MainThread]: A project called dbt_project already exists here.
+[0m20:12:22.877051 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.09371541, "process_in_blocks": "0", "process_kernel_time": 0.153054, "process_mem_max_rss": "92499968", "process_out_blocks": "0", "process_user_time": 1.301653}
+[0m20:12:22.877758 [debug] [MainThread]: Command `dbt init` succeeded at 20:12:22.877639 after 0.09 seconds
+[0m20:12:22.878226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f90423d9a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9042c440d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f90436af160>]}
+[0m20:12:22.878637 [debug] [MainThread]: Flushing usage events
+[0m20:12:23.247911 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:12:51.147498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fec16bd7b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fec18019c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fec180192b0>]}
+
+
+============================== 20:12:51.151461 | 39cd1d63-d5ea-46aa-a85e-f253455464c7 ==============================
+[0m20:12:51.151461 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m20:12:51.152119 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'version_check': 'True', 'empty': 'None', 'log_cache_events': 'False', 'write_json': 'True', 'debug': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'quiet': 'False', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'static_parser': 'True', 'introspect': 'True', 'partial_parse': 'True', 'warn_error': 'None', 'log_format': 'default', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/oliviazama/.dbt', 'printer_width': '80', 'invocation_command': 'dbt init dbt_project'}
+[0m20:12:51.164426 [debug] [MainThread]: Starter project path: /Users/oliviazama/opt/anaconda3/lib/python3.9/site-packages/dbt/include/starter_project
+[0m20:12:51.171390 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:12:51.171941 [info ] [MainThread]: Setting up your profile.
+[0m20:13:37.140764 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8a9e497b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aa00f3c70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8aa00f32b0>]}
+
+
+============================== 20:13:37.147752 | 89b2480c-e7df-4ea4-b29e-55577f2c3ab3 ==============================
+[0m20:13:37.147752 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m20:13:37.148592 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'version_check': 'True', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt init dbt_project', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'static_parser': 'True', 'indirect_selection': 'eager', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'quiet': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'write_json': 'True', 'printer_width': '80', 'empty': 'None', 'use_colors': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/oliviazama/.dbt'}
+[0m20:13:37.174548 [debug] [MainThread]: Starter project path: /Users/oliviazama/opt/anaconda3/lib/python3.9/site-packages/dbt/include/starter_project
+[0m20:13:37.183470 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:13:37.184031 [info ] [MainThread]: Setting up your profile.
+[0m20:14:45.501037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd644cd8af0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd646818be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd646818220>]}
+
+
+============================== 20:14:45.508689 | 37a6b9f6-d59e-4474-8daa-f1d8e9aa348a ==============================
+[0m20:14:45.508689 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m20:14:45.509737 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'log_path': 'logs', 'version_check': 'True', 'invocation_command': 'dbt init dbt_project', 'log_cache_events': 'False', 'quiet': 'False', 'no_print': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'debug': 'False', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'empty': 'None', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/oliviazama/.dbt', 'cache_selected_only': 'False', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'log_format': 'default', 'fail_fast': 'False'}
+[0m20:14:45.533770 [info ] [MainThread]: A project called dbt_project already exists here.
+[0m20:14:45.535743 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.12172741, "process_in_blocks": "0", "process_kernel_time": 0.25472, "process_mem_max_rss": "92405760", "process_out_blocks": "0", "process_user_time": 1.417542}
+[0m20:14:45.536590 [debug] [MainThread]: Command `dbt init` succeeded at 20:14:45.536469 after 0.12 seconds
+[0m20:14:45.537006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd644cd8af0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd646799970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd64680abe0>]}
+[0m20:14:45.537422 [debug] [MainThread]: Flushing usage events
+[0m20:14:47.023215 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:14:59.150125 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8079b99ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f807afd9b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f807afd9160>]}
+
+
+============================== 20:14:59.156721 | e7f5c8e9-7b69-4d64-920b-99e0da893234 ==============================
+[0m20:14:59.156721 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m20:14:59.157391 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'log_path': 'logs', 'use_colors': 'True', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init dbt_project', 'introspect': 'True', 'version_check': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'cache_selected_only': 'False', 'no_print': 'None', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': '/Users/oliviazama/.dbt', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'printer_width': '80', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'log_format': 'default'}
+[0m20:14:59.180139 [debug] [MainThread]: Starter project path: /Users/oliviazama/opt/anaconda3/lib/python3.9/site-packages/dbt/include/starter_project
+[0m20:14:59.188867 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:14:59.189384 [info ] [MainThread]: Setting up your profile.
+[0m20:17:26.947102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff7782c4a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff77a12ed60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff77a12e3a0>]}
+
+
+============================== 20:17:26.954063 | bc5fd84a-c327-4025-a596-4d194f85a3a3 ==============================
+[0m20:17:26.954063 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m20:17:26.954824 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'version_check': 'True', 'warn_error': 'None', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init dbt_project', 'empty': 'None', 'printer_width': '80', 'target_path': 'None', 'log_cache_events': 'False', 'debug': 'False', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'introspect': 'True', 'log_path': 'logs', 'use_experimental_parser': 'False', 'quiet': 'False', 'profiles_dir': '/Users/oliviazama/.dbt', 'static_parser': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'partial_parse': 'True'}
+[0m20:17:26.979971 [debug] [MainThread]: Starter project path: /Users/oliviazama/opt/anaconda3/lib/python3.9/site-packages/dbt/include/starter_project
+[0m20:17:26.988269 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:17:26.988847 [info ] [MainThread]: Setting up your profile.
+[0m20:19:26.716512 [info ] [MainThread]: Profile dbt_project written to /Users/oliviazama/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:19:26.718874 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 119.858116, "process_in_blocks": "0", "process_kernel_time": 0.417791, "process_mem_max_rss": "161017856", "process_out_blocks": "0", "process_user_time": 2.661945}
+[0m20:19:26.719587 [debug] [MainThread]: Command `dbt init` succeeded at 20:19:26.719469 after 119.86 seconds
+[0m20:19:26.719995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff7782c4a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff778bb3ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff77a1cc580>]}
+[0m20:19:26.720636 [debug] [MainThread]: Flushing usage events
+[0m20:19:27.108561 [debug] [MainThread]: An error was encountered while trying to flush usage events
